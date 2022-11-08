@@ -1,11 +1,11 @@
-package com.dotjuan89.aquariuxtest.pojo;
+package com.dotjuan89.aquariuxtest.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.sql.Timestamp;
 import java.util.List;
 
-public class HoubiPojo {
+public class HoubiEntity {
     public static class houbiItem {
         @JsonProperty
         private String symbol;

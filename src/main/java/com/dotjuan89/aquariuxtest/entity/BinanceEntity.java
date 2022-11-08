@@ -1,10 +1,10 @@
-package com.dotjuan89.aquariuxtest.pojo;
+package com.dotjuan89.aquariuxtest.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class BinancePojo {
+public class BinanceEntity {
     @JsonProperty
     private String symbol;
     @JsonProperty

@@ -20,19 +20,19 @@ public class BinancePojo {
         return symbol;
     }
 
-    public String getBidPrice() {
-        return bidPrice;
+    public double getBidPrice() {
+        return Double.parseDouble(bidPrice);
     }
 
-    public String getBidQty() {
-        return bidQty;
+    public double getBidQty() {
+        return Double.parseDouble(bidQty);
     }
 
-    public String getAskPrice() {
-        return askPrice;
+    public double getAskPrice() {
+        return Double.parseDouble(askPrice);
     }
 
-    public String getAskQty() {
-        return askQty;
+    public double getAskQty() {
+        return Double.parseDouble(askQty);
     }
 }

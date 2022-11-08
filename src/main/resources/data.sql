@@ -1,0 +1,1 @@
+INSERT INTO USERS (name, usdt, btc, eth) VALUES ('Manuel', 50000, 0, 0)

@@ -1,10 +1,10 @@
 package com.dotjuan89.aquariuxtest.repository;
 
-import com.dotjuan89.aquariuxtest.entity.PriceEntity;
+import com.dotjuan89.aquariuxtest.entity.UsersEntity;
+import org.hibernate.sql.Update;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PriceRepository extends JpaRepository<PriceEntity, Integer> {
-    PriceEntity findTopByOrderByIdDesc();
+public interface UsersRepository extends JpaRepository<UsersEntity, Integer> {
 }

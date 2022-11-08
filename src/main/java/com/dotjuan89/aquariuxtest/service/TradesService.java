@@ -2,8 +2,8 @@ package com.dotjuan89.aquariuxtest.service;
 
 import com.dotjuan89.aquariuxtest.entity.BinanceEntity;
 import com.dotjuan89.aquariuxtest.entity.HoubiEntity;
-import com.dotjuan89.aquariuxtest.entity.PriceEntity;
-import com.dotjuan89.aquariuxtest.repository.PriceRepository;
+import com.dotjuan89.aquariuxtest.entity.PricesEntity;
+import com.dotjuan89.aquariuxtest.repository.PricesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -22,7 +22,7 @@ public class TradesService {
     private boolean verbose;
 
     @Autowired
-    PriceRepository priceRepository;
+    PricesRepository pricesRepository;
 
     private enum TradeKey {
         BTC_ASK,
@@ -118,14 +118,14 @@ public class TradesService {
     }
 
     private void StoreToH2(Map<TradeKey, Double> m) {
-        PriceEntity entity = new PriceEntity(
+        PricesEntity entity = new PricesEntity(
                 m.get(TradeKey.BTC_ASK),
                 m.get(TradeKey.BTC_BID),
                 m.get(TradeKey.ETH_ASK),
                 m.get(TradeKey.ETH_BID)
         );
 
-        priceRepository.save(entity);
+        pricesRepository.save(entity);
     }
 
     @Scheduled(fixedRate = 10000)

@@ -5,8 +5,8 @@ import java.util.Date;
 import java.sql.Timestamp;
 
 @Entity
-@Table(name = "PRICE")
-public class PriceEntity {
+@Table(name = "PRICES")
+public class PricesEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -25,9 +25,9 @@ public class PriceEntity {
 
     private Timestamp ts;
 
-    public PriceEntity() {}
+    public PricesEntity() {}
 
-    public PriceEntity(Double btc_ask, Double btc_bid, Double eth_ask, Double eth_bid) {
+    public PricesEntity(Double btc_ask, Double btc_bid, Double eth_ask, Double eth_bid) {
         this.btc_ask = btc_ask;
         this.btc_bid = btc_bid;
         this.eth_ask = eth_ask;
@@ -37,26 +37,26 @@ public class PriceEntity {
     }
 
     public Integer getId() {
-        return this.id;
+        return id;
     }
 
     public Double getBtcAsk() {
-        return this.btc_ask;
+        return btc_ask;
     }
 
     public Double getBtcBid() {
-        return this.btc_bid;
+        return btc_bid;
     }
 
     public Double getEthAsk() {
-        return this.eth_ask;
+        return eth_ask;
     }
 
     public Double getEthBid() {
-        return this.eth_bid;
+        return eth_bid;
     }
 
     public Timestamp getTs() {
-        return this.ts;
+        return ts;
     }
 }

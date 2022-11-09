@@ -8,7 +8,9 @@
 5. Users can retrieve their trading history (transactions).
 
 ## Technical Details
-Application is hosted on port 8080.
+- Application is hosted on port 8080
+- Default ID is 1 (e.g. http://localhost:8080/1/balance)
+- You can add more user by inserting into database via /src/main/resources/data.sql
 
 ## Technology
 
@@ -24,9 +26,9 @@ Returns the latest selected highest aggregated price.
 # /{id}/{currency}/{opt}/{amt}
 Allows trading of currency.
 - id - ID of user
-- currency - BTC/ETH
-- opt - Buy/Sell
-- amt - Amount to be traded
+- currency - btc/eth
+- opt - buy/sell/b/s
+- amt - Amount to be traded in double format
 
 # /{id}/balance
 Allows user to view their balance.

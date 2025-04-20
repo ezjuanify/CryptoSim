@@ -1,9 +1,9 @@
-package com.dotjuan89.aquariuxtest.service;
+package io.juanez.cryptosim.service;
 
-import com.dotjuan89.aquariuxtest.entity.BinanceEntity;
-import com.dotjuan89.aquariuxtest.entity.HoubiEntity;
-import com.dotjuan89.aquariuxtest.entity.PricesEntity;
-import com.dotjuan89.aquariuxtest.repository.PricesRepository;
+import io.juanez.cryptosim.entity.BinanceEntity;
+import io.juanez.cryptosim.entity.HoubiEntity;
+import io.juanez.cryptosim.entity.PricesEntity;
+import io.juanez.cryptosim.repository.PricesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;

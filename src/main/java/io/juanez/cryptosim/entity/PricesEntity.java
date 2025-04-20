@@ -1,4 +1,4 @@
-package com.dotjuan89.aquariuxtest.entity;
+package io.juanez.cryptosim.entity;
 
 import javax.persistence.*;
 import java.util.Date;

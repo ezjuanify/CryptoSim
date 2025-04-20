@@ -1,6 +1,11 @@
-# Aquariux Test 09/11/2022
+# CryptoSim
 
 ## Description
+A lightweight backend simulation for crypto trading using Spring Boot.
+Fetches real-time BTC/ETH prices from Binance and Huobi, and lets users simulate trades based on the highest market price.
+
+Originally built for a technical interview - now adapted for demo and educational purposes.
+
 1. Application will fetch from BTCUSDT and ETHUSDT from Binance and Huobi every 10 seconds.
 2. Highest aggregated price will be selected.
 3. User is then able to view the selected price and proceed to trade (buy/sell).

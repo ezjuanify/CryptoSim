@@ -1,10 +1,10 @@
-package com.dotjuan89.aquariuxtest;
+package io.juanez.cryptosim;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AquariuxTestApplicationTests {
+class CryptoSimApplicationTests {
 
 	@Test
 	void contextLoads() {

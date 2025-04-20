@@ -1,4 +1,4 @@
-package com.dotjuan89.aquariuxtest;
+package io.juanez.cryptosim;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class AquariuxTestApplication {
+public class CryptoSimApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AquariuxTestApplication.class, args);
+		SpringApplication.run(CryptoSimApplication.class, args);
 	}
 
 }

@@ -1,7 +1,7 @@
-package com.dotjuan89.aquariuxtest.controller;
+package io.juanez.cryptosim.controller;
 
-import com.dotjuan89.aquariuxtest.entity.*;
-import com.dotjuan89.aquariuxtest.repository.*;
+import io.juanez.cryptosim.entity.*;
+import io.juanez.cryptosim.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;

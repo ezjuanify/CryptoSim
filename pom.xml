@@ -8,11 +8,11 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dotjuan89</groupId>
-	<artifactId>aquariux-test</artifactId>
+	<groupId>io.juanez</groupId>
+	<artifactId>cryptosim</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>aquariux-test</name>
-	<description>Merquri Assessment Project</description>
+	<name>cryptosim</name>
+	<description>Crypto Simulation Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

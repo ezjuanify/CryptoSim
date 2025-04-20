@@ -1,4 +1,4 @@
-package com.dotjuan89.aquariuxtest.entity;
+package io.juanez.cryptosim.entity;
 
 import ch.qos.logback.classic.db.names.ColumnName;
 
